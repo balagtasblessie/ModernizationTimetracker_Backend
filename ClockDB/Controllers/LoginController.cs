@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ClockDB.Data;
 using ClockDB.Models;
+using ClockDB_Service;
+using ClockDB.Validator;
 using Microsoft.AspNetCore.Identity.Data;
 
 namespace ClockDB.Controllers
