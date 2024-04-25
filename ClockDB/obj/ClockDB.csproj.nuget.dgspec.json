@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB\\ClockDB.csproj": {}
+    "C:\\Users\\blessie.balagtas\\Source\\Repos\\ModernizationTimetracker_Backend\\ClockDB\\ClockDB.csproj": {}
   },
   "projects": {
-    "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB\\ClockDB.csproj": {
+    "C:\\Users\\blessie.balagtas\\Source\\Repos\\ModernizationTimetracker_Backend\\ClockDB\\ClockDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB\\ClockDB.csproj",
+        "projectUniqueName": "C:\\Users\\blessie.balagtas\\Source\\Repos\\ModernizationTimetracker_Backend\\ClockDB\\ClockDB.csproj",
         "projectName": "ClockDB",
-        "projectPath": "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB\\ClockDB.csproj",
+        "projectPath": "C:\\Users\\blessie.balagtas\\Source\\Repos\\ModernizationTimetracker_Backend\\ClockDB\\ClockDB.csproj",
         "packagesPath": "C:\\Users\\blessie.balagtas\\.nuget\\packages\\",
-        "outputPath": "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB\\obj\\",
+        "outputPath": "C:\\Users\\blessie.balagtas\\Source\\Repos\\ModernizationTimetracker_Backend\\ClockDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\blessie.balagtas\\AppData\\Roaming\\NuGet\\NuGet.Config",

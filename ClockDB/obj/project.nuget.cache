@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OAoWiRKQ/QFZzMMNNCi4DrEY53biPYZF7yCwJWjloxmrHXh90X+RS+9mbbkas1pGNegCERo0d6svtGjerG37mA==",
+  "dgSpecHash": "dseA0mJsswrB9GIC32Fu8Jil9NcBHKtnaCMIZjBDJ3oLOOe6mCQi4dkLI/dSE7npEQYiRs+nDNqLnCvfQsbMYg==",
   "success": true,
-  "projectFilePath": "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB\\ClockDB.csproj",
+  "projectFilePath": "C:\\Users\\blessie.balagtas\\Source\\Repos\\ModernizationTimetracker_Backend\\ClockDB\\ClockDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\blessie.balagtas\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\blessie.balagtas\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
