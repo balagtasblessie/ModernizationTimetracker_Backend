@@ -2831,6 +2831,22 @@
             "rid": "win"
           }
         }
+      },
+      "ClockDB_Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/ClockDB_Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClockDB_Service.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -8244,10 +8260,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ClockDB_Service/1.0.0": {
+      "type": "project",
+      "path": "../ClockDB_Service/ClockDB_Service.csproj",
+      "msbuildProject": "../ClockDB_Service/ClockDB_Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ClockDB_Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
@@ -8280,7 +8302,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB_Service\\ClockDB_Service.csproj": {
+              "projectPath": "D:\\Modernization\\Modernization_Backend\\backend_modernization\\ClockDB_Service\\ClockDB_Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

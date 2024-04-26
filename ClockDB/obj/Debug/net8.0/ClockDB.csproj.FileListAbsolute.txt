@@ -1282,3 +1282,8 @@ D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\obj\Debug\n
 D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\obj\Debug\net8.0\ClockDB.pdb
 D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\obj\Debug\net8.0\ClockDB.genruntimeconfig.cache
 D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\obj\Debug\net8.0\ref\ClockDB.dll
+D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\bin\Debug\net8.0\ClockDB_Service.deps.json
+D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\bin\Debug\net8.0\ClockDB_Service.runtimeconfig.json
+D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\bin\Debug\net8.0\ClockDB_Service.exe
+D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\bin\Debug\net8.0\ClockDB_Service.dll
+D:\Modernization\Modernization_Backend\backend_modernization\ClockDB\bin\Debug\net8.0\ClockDB_Service.pdb

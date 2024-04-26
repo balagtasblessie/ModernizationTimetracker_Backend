@@ -1,4 +1,4 @@
-﻿namespace ClockDB.Models
+﻿    namespace ClockDB.Models
 {   
     public class UserProject
     {

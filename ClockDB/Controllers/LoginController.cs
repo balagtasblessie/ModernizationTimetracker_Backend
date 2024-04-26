@@ -7,31 +7,36 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ClockDB.Data;
 using ClockDB.Models;
+using ClockDB.Validator;
+using ClockDB_Service;
 using Microsoft.AspNetCore.Identity.Data;
+using ClockDB.Manager;
 
 namespace ClockDB.Controllers
 {
     public class LoginController : Controller
     {
+        private readonly LoginValidator _validator;
         private readonly ClockDBContext _context;
+        private readonly LoginManager _loginManager;
+
 
         public LoginController(ClockDBContext context)
         {
             _context = context;
+            _validator = new LoginValidator();
+            _loginManager = new LoginManager(context);
         }
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] userLogin request)
         {
-            if (request == null || string.IsNullOrEmpty(request.UserName) || string.IsNullOrEmpty(request.Password))
+            if (_validator.isValid(request)  == false)
             {
                 return BadRequest("Invalid credentials");
             }
 
-            var user = _context.UserTable
-                .Where(u => u.UserName == request.UserName && u.Password == request.Password)
-                .Join(_context.Role, u => u.id, r => r.id, (u, r) => new { u.FullName, r.roleName })
-                .FirstOrDefault();
+            User user = _loginManager.getUser(request.UserName, request.Password);
 
             if (user == null)
             {

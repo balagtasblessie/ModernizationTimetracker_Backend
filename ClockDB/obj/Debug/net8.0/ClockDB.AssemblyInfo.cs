@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClockDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540afb01c74f7071cc43d112dead0dff37ab0e3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5f64e3d109de34eeee847e66e251f6f2b24b36b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClockDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClockDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
